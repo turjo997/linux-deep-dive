@@ -22,4 +22,5 @@ mv ~/linux_fundamentals/example.txt ~/linux_fundamentals/backup/
 chmod u=rw,go=r ~/linux_fundamentals/backup/example.txt
 
 #Verify and display the permission changes.
+echo "Display after the permission changes: "
 ls -l ~/linux_fundamentals/backup/example.txt

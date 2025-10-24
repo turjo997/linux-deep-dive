@@ -23,8 +23,9 @@ sudo chown student ~/example.txt
 sudo chown :student ~/example.txt
 
 #display user information
+echo "Display student user information: "
 id student
 
 # Verify and display the permission changes.
-echo "After changes permission: "
+echo -e "\nAfter changes permission: "
 ls -l ~/example.txt
